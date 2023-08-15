@@ -1,0 +1,32 @@
+.input {
+  font-family: 'Open Sans', sans-serif;
+  display: block;
+  padding: 0 0 0 20px;
+  min-height: 50px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  border-radius: 50px;
+  border: none;
+  width: 100%;
+}
+
+.input:focus {
+  font-family: 'Open Sans', sans-serif;
+  outline: none;
+  border: 3px solid #3FB0AC;
+  color: #000;
+  font-weight: 600;
+}
+
+.input::placeholder {
+  color: #ADADAD;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+@media (max-width: 340px) {
+  .input {
+    min-height: 40px;
+  }
+}

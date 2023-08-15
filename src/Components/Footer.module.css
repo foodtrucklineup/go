@@ -1,0 +1,46 @@
+.footerBackground {
+  background: no-repeat center top url("../assets/Form-Background.png");
+  height: 1100px;
+  background-size: cover;
+  border-top: 10px solid #173e43;
+}
+
+.socialBar {
+  height: 75px;
+  background-color: #3fb0ac;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  font-size: 26px;
+  margin-right: 10px;
+  color: #173e43;
+  text-decoration: none;
+}
+
+.link {
+  color: #173e43;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.link:hover,
+.icon:hover {
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .footerBackground {
+    height: 1064px;
+  }
+}
+
+@media (max-width: 340px) {
+  .footerBackground {
+    height: 915px;
+  }
+}

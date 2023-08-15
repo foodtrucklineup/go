@@ -1,0 +1,81 @@
+.nav {
+  background-color: #fae596;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 150px;
+  border-top: 12px solid #3fb0ac;
+  box-shadow: #0000001c 0px 8px 10px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logoImg {
+  max-width: 195px;
+  margin-right: 16px;
+}
+
+.button {
+  background-color: #173E43;
+  border-radius: 50px;
+  color: #fff;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 16px 50px;
+  border: none;
+  box-shadow: #00000054 0px 6px 9px;
+  width: max-content;
+  transition: all 500ms ease;
+}
+
+.button:hover {
+  box-shadow: none;
+  background-color: #1e4c52;
+  transition: all 500ms ease;
+}
+
+@media (max-width: 1200px) {
+  .nav {
+    padding: 20px 60px;
+  }
+}
+
+@media (max-width: 620px) {
+  .nav {
+    padding: 15px 30px;
+  }
+
+  .logoImg {
+    max-width: 155px;
+    margin-right: 10px;
+  }
+
+  .button {
+    font-size: 13px;
+    padding: 14px 30px;
+  }
+}
+
+@media (max-width: 335px) {
+  .nav {
+    padding: 15px 32px;
+  }
+
+  .logoImg {
+    max-width: 95px;
+    margin-right: 10px;
+  }
+
+  .button {
+    font-size: 12px;
+    padding: 12px 25px;
+  }
+}

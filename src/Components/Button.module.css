@@ -1,0 +1,19 @@
+.button {
+  background-color: #173E43;
+  border-radius: 50px;
+  color: #fff;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 16px 50px;
+  border: none;
+  box-shadow: #00000054 0px 6px 9px;
+  width: max-content;
+  transition: all 500ms ease;
+}
+
+.button:hover {
+  box-shadow: none;
+  background-color: #1e4c52;
+  transition: all 500ms ease;
+}
